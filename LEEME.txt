@@ -1,0 +1,36 @@
+INFO:
+Este documento es creado con el fin de informar a los propietarios que modificaciones necesarias deben hacer en el sitio antes de publicarlo en linea.
+No se hicieron estas modificaciones en el proyecto debido a que son necesarias ciertas informaciones, como por ejemplo el nombre del sitio web.
+
+NOTAS:
+
+PHP
+#php-1 (Introducir videos de youtube):
+    Se pasa por parametros dos valores para esta función.
+
+    Parámetro 1:
+    Si es uno (1), la funcion quedaría así: showYtb("one","");
+    Si es una lista, la unción quedaría así: showYtb("playlist","");
+
+    Parametro 2:
+    Si es uno (1), la funcion quedaría así: showYtb("one","ij5ghE7_7LY");
+    Si es una lista, la unción quedaría así: showYtb("playlist","PLTsZlEONKfi07bdeS_u7k5yPsENXJtG0l");
+    En el caso de una playlist, solo se copia el codigo que viene despues de: "https://youtube.com/playlist?list=" que proporciona youtube.
+
+
+
+
+
+
+
+JS
+#js-1 (USAR CLAVES DE API):
+    Es necesario la creación de un API KEY y restringirlo (RESTRICCIONES DE APLICACIONES: con el nombre del sitio web creado; y tambien: RESTRICCIONES DE API: darle click en RESTRINGIR CLAVE).
+
+
+
+
+
+CSS
+#css-1
+    Depende del tamaño de imagen que coloque, y esto a su vez dependerá del usuario al que quiera dirigirse. Si sus usuarios visualizan o pueden visualizar su página desde dispositivos con resoluciones mayores, entonces opte por elegir un mejor recorte del banner u otro banner en su defecto si así lo desea.

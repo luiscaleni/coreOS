@@ -1,0 +1,116 @@
+section{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 50px 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    .contH1{
+        width: 100%;
+        height: auto;
+        padding: 10px 5px;
+        margin-bottom: 5px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            width: 80%;
+            height: auto;
+            font-size: 35px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .cont{
+        width: 80%;
+        height: auto;
+        min-height: 30px;
+        padding-top: 10px;
+        position: relative;
+
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 300px;
+            min-width: 250px;
+            height: auto;
+        }
+        .float{
+            float: left;
+            margin: 5px 15px 5px 0px;
+        }
+        .shortTextSection{
+            width: 100%;
+            min-height:20px;
+            max-height: 200px;
+            overflow: auto;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0px;
+            padding: 5px;
+            background-color:none;
+        }
+        .longTextSection{
+            width: 100%;
+            min-height:200px;
+            font-size: 22px;
+            line-height: 1.5;
+            margin: 10px;
+            padding: 10px;
+            background-color:none;
+        }
+        .target{
+            width: 340px;
+            height: 220px;
+            margin: 15px 5px;
+            text-align: center;
+            color: $colorLight;
+
+            display: flex;
+            a{
+                width: 100%;
+                height: 100%;
+                color: #000;
+                border-radius: $border_radius_3;
+                border:1px solid #ccc;
+                border-top: 4px solid $colorLight;
+                box-shadow: 1px 2px 3px #333;
+                background-color: $white;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                p{
+                    max-width: 80%;
+                }
+            }
+            a:hover{
+                background-color: $colorLight2;
+                transition: all ease-in-out .3s;
+                h3, .description{color: white;}
+            }
+            .description{
+                font-size: 14px;
+                color: #667;
+            }
+        }
+        .mapa{
+            width: 90%;
+            background-color: #ddd;
+        }
+        video{
+            max-width: 480px;
+            height: auto;
+            margin: 0px 5px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "luiscv/idp",
+    "description": "proyecto",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Luiscv\\Idp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis Caleni",
+            "email": "luis.caleni@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6"
+    }
+}

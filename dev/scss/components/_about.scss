@@ -1,0 +1,16 @@
+.portada_about {
+    background-image: none;
+    min-height: 70vh;
+    color: #000;
+    font-style:italic;
+    line-height: 1.5;
+    text-align: center;
+    box-shadow:0px 0px 5px #333;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}

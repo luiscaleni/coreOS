@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Oooh+Baby&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+$color1:#010326;//#1252A6;
+$color2:#071773;//#0D518C;
+$color3:#1D3DF2;//#4192D9;
+$color4:#1D52F2;//#48A1D9;
+$color5:#4981F2;//#9BD1F2;
+
+$colorLight:$color5; //rgba(1, 25, 44, 0.7);
+$colorDark:$color2;
+$colorLight2:$color5; //rgb(193, 211, 247)
+
+$color_a_t:rgba(18, 60, 151, 0.8);
+
+$background: #ffffff;
+
+$white:white;
+$black:#000;
+$grey:#333;
+
+$border_radius: 30px;
+$border_radius_2: 10px;
+$border_radius_3: 5px;
+$blur:blur(8px);
+
+html{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+body{
+    overflow-x: hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $background;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.error404{
+    font-size: 50px;
+}
+
+.icon-circle-up {
+    position: fixed;
+    cursor:pointer;
+    right:10px;
+    bottom:20px;
+	padding:20px;
+	font-size:20px;
+	color:#fff;	
+    border:1px solid white;
+    border-radius: $border_radius;
+    background: $color1;
+    z-index: 9;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    top:0px;
+    background-color: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h1, h3{
+    color: #333;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 80vw;
+    height: auto;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #666;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+border-radius: 20px;
+background: #ccc;        /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #666;    /* color of the scroll thumb */
+border-radius: 20px;       /* roundness of the scroll thumb */
+border: 1px solid #ccc;  /* creates padding around scroll thumb */
+}

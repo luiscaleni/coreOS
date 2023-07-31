@@ -1,0 +1,94 @@
+header{
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    top: 0px;
+    font-size: 14px;
+    text-shadow: 2px 1px 2px $grey;
+    background-color: $color1;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    .navMobile{
+        display: none;
+    }
+    nav{
+        width: 80vw;
+        height: 60px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav_izq, .nav_cent, .nav_der{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .button{
+                min-width: 150px;
+                height: 100%;
+                padding: 0px 5px;
+                color: $white;
+                font-weight: bold;
+                transition: .3s ease all;
+                position: relative;
+                overflow:hidden;
+        
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    position: absolute;
+                    z-index: 2;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .logo{
+                background-color: $colorLight;
+            }
+            .button::after{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: $colorLight;
+                transform: translateY(-100%);
+                z-index: 1;
+            }
+            .button:hover::after{
+                transition: .2s ease-in-out all;
+                transform: translateY(0);
+            }
+        }
+        .nav_izq{
+            width: auto;
+            height: 100%;
+        }
+        .nav_cent{
+            width: auto;
+            height: 100%;
+        }
+        .nav_der{
+            width: auto;
+            height: 100%;
+        }
+        @media only screen and (max-width:1000px){
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+}

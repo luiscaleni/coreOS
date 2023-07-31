@@ -1,0 +1,12 @@
+@media (max-width:375px), (max-width:414px), (max-width:820px), (max-width:912px), (max-width:1000px){
+    .cover {
+        .imageCover{
+            width: auto;
+                height: 100vh;
+        }
+        .formGeneral{
+            background-image: none;
+            background-color: #ccc;
+        }
+    }
+}
