@@ -1,1 +1,0 @@
-Carpeta "DEV" solo destinada para desarrollar, no para publicar en linea.
